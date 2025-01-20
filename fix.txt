@@ -1,0 +1,7 @@
+Fix 'degradations.py' from the 'basicsr' module by changing
+
+from torchvision.transforms.functional_tensor import rgb_to_grayscale
+
+to
+
+from torchvision.transforms.functional import rgb_to_grayscale

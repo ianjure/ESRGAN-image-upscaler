@@ -1,7 +1,3 @@
-Fix 'degradations.py' from the 'basicsr' module by changing
-
-from torchvision.transforms.functional_tensor import rgb_to_grayscale
-
-to
-
-from torchvision.transforms.functional import rgb_to_grayscale
+1. Find 'basicsr' module in your virtual environment folder.
+2. Go to 'data' and find the 'degradations.py' file.
+3. Change: from torchvision.transforms.functional_tensor import rgb_to_grayscale -> from torchvision.transforms.functional import rgb_to_grayscale
